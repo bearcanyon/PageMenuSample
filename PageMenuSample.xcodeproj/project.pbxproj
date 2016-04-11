@@ -14,6 +14,13 @@
 		5FB17E311CB7748300F7C02B /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 5FB17E2F1CB7748300F7C02B /* LaunchScreen.storyboard */; };
 		5FB17E3C1CB7748300F7C02B /* PageMenuSampleTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5FB17E3B1CB7748300F7C02B /* PageMenuSampleTests.swift */; };
 		5FB17E471CB7748300F7C02B /* PageMenuSampleUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5FB17E461CB7748300F7C02B /* PageMenuSampleUITests.swift */; };
+		5FC0FD891CBBEF6500977464 /* FirstViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5FC0FD871CBBEF6500977464 /* FirstViewController.swift */; };
+		5FC0FD8A1CBBEF6500977464 /* FirstViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = 5FC0FD881CBBEF6500977464 /* FirstViewController.xib */; };
+		5FC0FD951CBBF05F00977464 /* SecondViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5FC0FD931CBBF05F00977464 /* SecondViewController.swift */; };
+		5FC0FD961CBBF05F00977464 /* SecondViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = 5FC0FD941CBBF05F00977464 /* SecondViewController.xib */; };
+		5FC0FD991CBBF09D00977464 /* ThirdTableViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5FC0FD971CBBF09D00977464 /* ThirdTableViewController.swift */; };
+		5FC0FD9A1CBBF09D00977464 /* ThirdTableViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = 5FC0FD981CBBF09D00977464 /* ThirdTableViewController.xib */; };
+		C6C02BEAFD1BB8E8907A16C4 /* Pods_PageMenuSample.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = BE4C1DED896CF1854272FAD8 /* Pods_PageMenuSample.framework */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -34,6 +41,7 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
+		4DEE65CDA1B2291258065594 /* Pods-PageMenuSample.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-PageMenuSample.release.xcconfig"; path = "Pods/Target Support Files/Pods-PageMenuSample/Pods-PageMenuSample.release.xcconfig"; sourceTree = "<group>"; };
 		5FB17E231CB7748300F7C02B /* PageMenuSample.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = PageMenuSample.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		5FB17E261CB7748300F7C02B /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		5FB17E281CB7748300F7C02B /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
@@ -47,6 +55,14 @@
 		5FB17E421CB7748300F7C02B /* PageMenuSampleUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = PageMenuSampleUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		5FB17E461CB7748300F7C02B /* PageMenuSampleUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PageMenuSampleUITests.swift; sourceTree = "<group>"; };
 		5FB17E481CB7748300F7C02B /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		5FC0FD871CBBEF6500977464 /* FirstViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = FirstViewController.swift; sourceTree = "<group>"; };
+		5FC0FD881CBBEF6500977464 /* FirstViewController.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = FirstViewController.xib; sourceTree = "<group>"; };
+		5FC0FD931CBBF05F00977464 /* SecondViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = SecondViewController.swift; sourceTree = "<group>"; };
+		5FC0FD941CBBF05F00977464 /* SecondViewController.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = SecondViewController.xib; sourceTree = "<group>"; };
+		5FC0FD971CBBF09D00977464 /* ThirdTableViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ThirdTableViewController.swift; sourceTree = "<group>"; };
+		5FC0FD981CBBF09D00977464 /* ThirdTableViewController.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = ThirdTableViewController.xib; sourceTree = "<group>"; };
+		BE4C1DED896CF1854272FAD8 /* Pods_PageMenuSample.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_PageMenuSample.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		DE7E2E5BD49FB01F89F7D706 /* Pods-PageMenuSample.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-PageMenuSample.debug.xcconfig"; path = "Pods/Target Support Files/Pods-PageMenuSample/Pods-PageMenuSample.debug.xcconfig"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -54,6 +70,7 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				C6C02BEAFD1BB8E8907A16C4 /* Pods_PageMenuSample.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -74,6 +91,23 @@
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
+		18FE4C3C1AB8BC137FFDB78B /* Pods */ = {
+			isa = PBXGroup;
+			children = (
+				DE7E2E5BD49FB01F89F7D706 /* Pods-PageMenuSample.debug.xcconfig */,
+				4DEE65CDA1B2291258065594 /* Pods-PageMenuSample.release.xcconfig */,
+			);
+			name = Pods;
+			sourceTree = "<group>";
+		};
+		4B7C47CE756449C020D132A7 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				BE4C1DED896CF1854272FAD8 /* Pods_PageMenuSample.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
 		5FB17E1A1CB7748300F7C02B = {
 			isa = PBXGroup;
 			children = (
@@ -81,6 +115,8 @@
 				5FB17E3A1CB7748300F7C02B /* PageMenuSampleTests */,
 				5FB17E451CB7748300F7C02B /* PageMenuSampleUITests */,
 				5FB17E241CB7748300F7C02B /* Products */,
+				18FE4C3C1AB8BC137FFDB78B /* Pods */,
+				4B7C47CE756449C020D132A7 /* Frameworks */,
 			);
 			sourceTree = "<group>";
 		};
@@ -99,6 +135,12 @@
 			children = (
 				5FB17E261CB7748300F7C02B /* AppDelegate.swift */,
 				5FB17E281CB7748300F7C02B /* ViewController.swift */,
+				5FC0FD871CBBEF6500977464 /* FirstViewController.swift */,
+				5FC0FD881CBBEF6500977464 /* FirstViewController.xib */,
+				5FC0FD931CBBF05F00977464 /* SecondViewController.swift */,
+				5FC0FD941CBBF05F00977464 /* SecondViewController.xib */,
+				5FC0FD971CBBF09D00977464 /* ThirdTableViewController.swift */,
+				5FC0FD981CBBF09D00977464 /* ThirdTableViewController.xib */,
 				5FB17E2A1CB7748300F7C02B /* Main.storyboard */,
 				5FB17E2D1CB7748300F7C02B /* Assets.xcassets */,
 				5FB17E2F1CB7748300F7C02B /* LaunchScreen.storyboard */,
@@ -132,9 +174,12 @@
 			isa = PBXNativeTarget;
 			buildConfigurationList = 5FB17E4B1CB7748300F7C02B /* Build configuration list for PBXNativeTarget "PageMenuSample" */;
 			buildPhases = (
+				5454AF51060A6C41749B3F13 /* Check Pods Manifest.lock */,
 				5FB17E1F1CB7748300F7C02B /* Sources */,
 				5FB17E201CB7748300F7C02B /* Frameworks */,
 				5FB17E211CB7748300F7C02B /* Resources */,
+				C8FEB682A99776172A7FE9FF /* Embed Pods Frameworks */,
+				8FF53FC501F594C812371F31 /* Copy Pods Resources */,
 			);
 			buildRules = (
 			);
@@ -229,7 +274,10 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				5FC0FD961CBBF05F00977464 /* SecondViewController.xib in Resources */,
 				5FB17E311CB7748300F7C02B /* LaunchScreen.storyboard in Resources */,
+				5FC0FD8A1CBBEF6500977464 /* FirstViewController.xib in Resources */,
+				5FC0FD9A1CBBF09D00977464 /* ThirdTableViewController.xib in Resources */,
 				5FB17E2E1CB7748300F7C02B /* Assets.xcassets in Resources */,
 				5FB17E2C1CB7748300F7C02B /* Main.storyboard in Resources */,
 			);
@@ -251,12 +299,63 @@
 		};
 /* End PBXResourcesBuildPhase section */
 
+/* Begin PBXShellScriptBuildPhase section */
+		5454AF51060A6C41749B3F13 /* Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "Check Pods Manifest.lock";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_ROOT}/../Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [[ $? != 0 ]] ; then\n    cat << EOM\nerror: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\nEOM\n    exit 1\nfi\n";
+			showEnvVarsInLog = 0;
+		};
+		8FF53FC501F594C812371F31 /* Copy Pods Resources */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "Copy Pods Resources";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-PageMenuSample/Pods-PageMenuSample-resources.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		C8FEB682A99776172A7FE9FF /* Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "Embed Pods Frameworks";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-PageMenuSample/Pods-PageMenuSample-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+/* End PBXShellScriptBuildPhase section */
+
 /* Begin PBXSourcesBuildPhase section */
 		5FB17E1F1CB7748300F7C02B /* Sources */ = {
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				5FC0FD951CBBF05F00977464 /* SecondViewController.swift in Sources */,
+				5FC0FD891CBBEF6500977464 /* FirstViewController.swift in Sources */,
 				5FB17E291CB7748300F7C02B /* ViewController.swift in Sources */,
+				5FC0FD991CBBF09D00977464 /* ThirdTableViewController.swift in Sources */,
 				5FB17E271CB7748300F7C02B /* AppDelegate.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -397,6 +496,7 @@
 		};
 		5FB17E4C1CB7748300F7C02B /* Debug */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = DE7E2E5BD49FB01F89F7D706 /* Pods-PageMenuSample.debug.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				INFOPLIST_FILE = PageMenuSample/Info.plist;
@@ -408,6 +508,7 @@
 		};
 		5FB17E4D1CB7748300F7C02B /* Release */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = 4DEE65CDA1B2291258065594 /* Pods-PageMenuSample.release.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				INFOPLIST_FILE = PageMenuSample/Info.plist;
@@ -482,6 +583,7 @@
 				5FB17E4D1CB7748300F7C02B /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 		5FB17E4E1CB7748300F7C02B /* Build configuration list for PBXNativeTarget "PageMenuSampleTests" */ = {
 			isa = XCConfigurationList;
@@ -490,6 +592,7 @@
 				5FB17E501CB7748300F7C02B /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 		5FB17E511CB7748300F7C02B /* Build configuration list for PBXNativeTarget "PageMenuSampleUITests" */ = {
 			isa = XCConfigurationList;
@@ -498,6 +601,7 @@
 				5FB17E531CB7748300F7C02B /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 	};
