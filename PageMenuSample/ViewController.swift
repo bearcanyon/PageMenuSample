@@ -22,7 +22,7 @@ class ViewController: UIViewController {
         controller1.title = "First"
         let controller2 : SecondViewController = SecondViewController(nibName: "SecondViewController", bundle: nil)
         controller2.title = "Second"
-        let controller3 : ThirdTableViewController = ThirdTableViewController(nibName: "ThirdTableViewController", bundle: nil)
+        let controller3 : ThirdViewController = ThirdViewController(nibName: "ThirdViewController", bundle: nil)
         controller3.title = "Third"
 
         pageMenuModel.addController(controller1)

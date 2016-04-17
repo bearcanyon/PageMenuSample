@@ -9,6 +9,11 @@
 /* Begin PBXBuildFile section */
 		5F3FA1291CC08D9600D6DF12 /* NavigationBar.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5F3FA1281CC08D9600D6DF12 /* NavigationBar.swift */; };
 		5F3FA1311CC0A58700D6DF12 /* PageMenuModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5F3FA1301CC0A58700D6DF12 /* PageMenuModel.swift */; };
+		5F77AAE21CC3BADB00C57DEB /* ThirdViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5F77AAE01CC3BADB00C57DEB /* ThirdViewController.swift */; };
+		5F77AAE31CC3BADB00C57DEB /* ThirdViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = 5F77AAE11CC3BADB00C57DEB /* ThirdViewController.xib */; };
+		5F77AAE51CC3BCCD00C57DEB /* TableView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5F77AAE41CC3BCCD00C57DEB /* TableView.swift */; };
+		5F77AAE81CC3BF1C00C57DEB /* TableViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5F77AAE61CC3BF1C00C57DEB /* TableViewCell.swift */; };
+		5F77AAE91CC3BF1C00C57DEB /* TableViewCell.xib in Resources */ = {isa = PBXBuildFile; fileRef = 5F77AAE71CC3BF1C00C57DEB /* TableViewCell.xib */; };
 		5FB17E271CB7748300F7C02B /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5FB17E261CB7748300F7C02B /* AppDelegate.swift */; };
 		5FB17E291CB7748300F7C02B /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5FB17E281CB7748300F7C02B /* ViewController.swift */; };
 		5FB17E2C1CB7748300F7C02B /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 5FB17E2A1CB7748300F7C02B /* Main.storyboard */; };
@@ -20,8 +25,6 @@
 		5FC0FD8A1CBBEF6500977464 /* FirstViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = 5FC0FD881CBBEF6500977464 /* FirstViewController.xib */; };
 		5FC0FD951CBBF05F00977464 /* SecondViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5FC0FD931CBBF05F00977464 /* SecondViewController.swift */; };
 		5FC0FD961CBBF05F00977464 /* SecondViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = 5FC0FD941CBBF05F00977464 /* SecondViewController.xib */; };
-		5FC0FD991CBBF09D00977464 /* ThirdTableViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5FC0FD971CBBF09D00977464 /* ThirdTableViewController.swift */; };
-		5FC0FD9A1CBBF09D00977464 /* ThirdTableViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = 5FC0FD981CBBF09D00977464 /* ThirdTableViewController.xib */; };
 		C6C02BEAFD1BB8E8907A16C4 /* Pods_PageMenuSample.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = BE4C1DED896CF1854272FAD8 /* Pods_PageMenuSample.framework */; };
 /* End PBXBuildFile section */
 
@@ -46,6 +49,11 @@
 		4DEE65CDA1B2291258065594 /* Pods-PageMenuSample.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-PageMenuSample.release.xcconfig"; path = "Pods/Target Support Files/Pods-PageMenuSample/Pods-PageMenuSample.release.xcconfig"; sourceTree = "<group>"; };
 		5F3FA1281CC08D9600D6DF12 /* NavigationBar.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = NavigationBar.swift; sourceTree = "<group>"; };
 		5F3FA1301CC0A58700D6DF12 /* PageMenuModel.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = PageMenuModel.swift; sourceTree = "<group>"; };
+		5F77AAE01CC3BADB00C57DEB /* ThirdViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ThirdViewController.swift; sourceTree = "<group>"; };
+		5F77AAE11CC3BADB00C57DEB /* ThirdViewController.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = ThirdViewController.xib; sourceTree = "<group>"; };
+		5F77AAE41CC3BCCD00C57DEB /* TableView.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = TableView.swift; sourceTree = "<group>"; };
+		5F77AAE61CC3BF1C00C57DEB /* TableViewCell.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = TableViewCell.swift; sourceTree = "<group>"; };
+		5F77AAE71CC3BF1C00C57DEB /* TableViewCell.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = TableViewCell.xib; sourceTree = "<group>"; };
 		5FB17E231CB7748300F7C02B /* PageMenuSample.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = PageMenuSample.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		5FB17E261CB7748300F7C02B /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		5FB17E281CB7748300F7C02B /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
@@ -63,8 +71,6 @@
 		5FC0FD881CBBEF6500977464 /* FirstViewController.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = FirstViewController.xib; sourceTree = "<group>"; };
 		5FC0FD931CBBF05F00977464 /* SecondViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = SecondViewController.swift; sourceTree = "<group>"; };
 		5FC0FD941CBBF05F00977464 /* SecondViewController.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = SecondViewController.xib; sourceTree = "<group>"; };
-		5FC0FD971CBBF09D00977464 /* ThirdTableViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ThirdTableViewController.swift; sourceTree = "<group>"; };
-		5FC0FD981CBBF09D00977464 /* ThirdTableViewController.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = ThirdTableViewController.xib; sourceTree = "<group>"; };
 		BE4C1DED896CF1854272FAD8 /* Pods_PageMenuSample.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_PageMenuSample.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		DE7E2E5BD49FB01F89F7D706 /* Pods-PageMenuSample.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-PageMenuSample.debug.xcconfig"; path = "Pods/Target Support Files/Pods-PageMenuSample/Pods-PageMenuSample.debug.xcconfig"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
@@ -145,8 +151,11 @@
 				5FC0FD881CBBEF6500977464 /* FirstViewController.xib */,
 				5FC0FD931CBBF05F00977464 /* SecondViewController.swift */,
 				5FC0FD941CBBF05F00977464 /* SecondViewController.xib */,
-				5FC0FD971CBBF09D00977464 /* ThirdTableViewController.swift */,
-				5FC0FD981CBBF09D00977464 /* ThirdTableViewController.xib */,
+				5F77AAE01CC3BADB00C57DEB /* ThirdViewController.swift */,
+				5F77AAE11CC3BADB00C57DEB /* ThirdViewController.xib */,
+				5F77AAE41CC3BCCD00C57DEB /* TableView.swift */,
+				5F77AAE61CC3BF1C00C57DEB /* TableViewCell.swift */,
+				5F77AAE71CC3BF1C00C57DEB /* TableViewCell.xib */,
 				5FB17E2A1CB7748300F7C02B /* Main.storyboard */,
 				5FB17E2D1CB7748300F7C02B /* Assets.xcassets */,
 				5FB17E2F1CB7748300F7C02B /* LaunchScreen.storyboard */,
@@ -280,10 +289,11 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				5F77AAE31CC3BADB00C57DEB /* ThirdViewController.xib in Resources */,
 				5FC0FD961CBBF05F00977464 /* SecondViewController.xib in Resources */,
+				5F77AAE91CC3BF1C00C57DEB /* TableViewCell.xib in Resources */,
 				5FB17E311CB7748300F7C02B /* LaunchScreen.storyboard in Resources */,
 				5FC0FD8A1CBBEF6500977464 /* FirstViewController.xib in Resources */,
-				5FC0FD9A1CBBF09D00977464 /* ThirdTableViewController.xib in Resources */,
 				5FB17E2E1CB7748300F7C02B /* Assets.xcassets in Resources */,
 				5FB17E2C1CB7748300F7C02B /* Main.storyboard in Resources */,
 			);
@@ -359,10 +369,12 @@
 			buildActionMask = 2147483647;
 			files = (
 				5F3FA1311CC0A58700D6DF12 /* PageMenuModel.swift in Sources */,
+				5F77AAE21CC3BADB00C57DEB /* ThirdViewController.swift in Sources */,
 				5FC0FD951CBBF05F00977464 /* SecondViewController.swift in Sources */,
+				5F77AAE81CC3BF1C00C57DEB /* TableViewCell.swift in Sources */,
 				5FC0FD891CBBEF6500977464 /* FirstViewController.swift in Sources */,
 				5FB17E291CB7748300F7C02B /* ViewController.swift in Sources */,
-				5FC0FD991CBBF09D00977464 /* ThirdTableViewController.swift in Sources */,
+				5F77AAE51CC3BCCD00C57DEB /* TableView.swift in Sources */,
 				5FB17E271CB7748300F7C02B /* AppDelegate.swift in Sources */,
 				5F3FA1291CC08D9600D6DF12 /* NavigationBar.swift in Sources */,
 			);
